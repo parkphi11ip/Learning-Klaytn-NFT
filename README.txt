@@ -1,28 +1,12 @@
-REMIX DEFAULT WORKSPACE
+NFT 블록체인 마켓 앱 만들기 with 그라운드X 4기
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+주요 기능 및 특징
 
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+    Klaytn API Service 사용
+    Klip 지갑 주소 불러오기 : Klip API
+    KLAY 잔고 조회 : caver.js (getBalance)
+    NFT 조회 : (사용자 & 마켓)
+    NFT 발행 : Klip API
+    NFT 판매 (사용자의 NFT를 마켓에 등록) : Klip API
+    NFT 구매 (마켓에 등록되어 있는 NFT 구매) : Klip API
+    Klip API 사용 시 브라우저 QR코드 이용
