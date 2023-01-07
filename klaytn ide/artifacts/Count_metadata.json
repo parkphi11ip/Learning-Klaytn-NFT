@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.6+commit.b259423e"
+		"version": "0.5.0+commit.1d4f565a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -59,7 +59,7 @@
 		"compilationTarget": {
 			"klaytn ide/count.sol": "Count"
 		},
-		"evmVersion": "petersburg",
+		"evmVersion": "byzantium",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,
